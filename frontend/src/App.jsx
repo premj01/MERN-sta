@@ -5,7 +5,7 @@ function App() {
   const [data, setData] = useState("Hi i am Prem Jadhav")
 
   function handleClick(){
-    axios.get("http://localhost:3000/api")
+    axios.get("https://mern-sta.onrender.com/api")
           .then((res)=>{
             setData(res.data.message);
             
